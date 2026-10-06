@@ -1,0 +1,17 @@
+{
+  "vertex": "blockblend:scene_blend",
+  "fragment": "blockblend:scene_blend",
+  "attributes": ["Position", "UV0", "Color"],
+  "samplers": [{"name":"Sampler0"},{"name":"Sampler1"},{"name":"Sampler2"}],
+  "uniforms": [
+    {"name":"ModelViewMat","type":"matrix4x4","count":16,"values":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]},
+    {"name":"ProjMat","type":"matrix4x4","count":16,"values":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]},
+    {"name":"SceneSize","type":"float","count":2,"values":[1,1]},
+    {"name":"LightUV","type":"int","count":2,"values":[0,0]},
+    {"name":"BlendMode","type":"int","count":1,"values":[0]},
+    {"name":"Opacity","type":"float","count":1,"values":[0.5]},
+    {"name":"FogStart","type":"float","count":1,"values":[0]},
+    {"name":"FogEnd","type":"float","count":1,"values":[1]},
+    {"name":"FogShape","type":"int","count":1,"values":[0]}
+  ]
+}

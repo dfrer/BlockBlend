@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "blockblend_smoke",
+  "version": "1.0.0",
+  "name": "BlockBlend disposable runtime smoke",
+  "environment": "client",
+  "entrypoints": {"client": ["com.example.blockblend.smoke.OpacitySmoke"]},
+  "depends": {"blockblend": "*", "fabric-api": "*", "minecraft": "1.21.1"}
+}

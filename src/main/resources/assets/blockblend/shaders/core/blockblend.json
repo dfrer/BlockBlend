@@ -1,0 +1,28 @@
+{
+  "blend": {
+    "srcColor": "one",
+    "dstColor": "oneMinusSrcAlpha",
+    "srcAlpha": "one",
+    "dstAlpha": "oneMinusSrcAlpha"
+  },
+  "vertex": "blockblend:shaders/core/blockblend.vsh",
+  "fragment": "blockblend:shaders/core/blockblend.fsh",
+  "attributes": [
+    "Position",
+    "Color",
+    "UV0",
+    "UV1",
+    "Light"
+  ],
+  "samplers": [
+    { "name": "DiffuseSampler" }
+  ],
+  "uniforms": [
+    { "name": "ModelViewMat", "type": "matrix4x4" },
+    { "name": "ProjMat", "type": "matrix4x4" },
+    { "name": "uMode", "type": "int" },
+    { "name": "uStrength", "type": "float" }
+  ]
+}
+
+

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "blockblend_showcase",
+  "version": "1.0.0",
+  "name": "BlockBlend original art studies (development only)",
+  "environment": "client",
+  "entrypoints": {"client": ["com.example.blockblend.showcase.ArtShowcase"]},
+  "depends": {"blockblend": "*", "fabric-api": "*", "minecraft": "1.21.1"}
+}

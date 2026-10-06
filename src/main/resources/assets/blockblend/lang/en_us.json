@@ -1,0 +1,12 @@
+{
+  "item.blockblend.blend_applicator": "Blend Applicator",
+  "category.blockblend": "BlockBlend",
+  "key.blockblend.mode": "Next blend mode",
+  "key.blockblend.texture": "Next overlay texture",
+  "key.blockblend.increase": "Increase pattern strength",
+  "key.blockblend.decrease": "Decrease pattern strength",
+  "key.blockblend.opacity_increase": "Increase opacity",
+  "key.blockblend.opacity_decrease": "Decrease opacity"
+}
+
+

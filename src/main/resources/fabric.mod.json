@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "blockblend",
+  "version": "${version}",
+  "name": "BlockBlend",
+  "description": "Blend patterned blocks with actual scenery using seven modes and independent opacity.",
+  "mixins": ["blockblend.client.mixins.json"],
+  "license": "MIT",
+  "authors": [
+    "BlockBlend Team"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.blockblend.BlockBlendMod"
+    ],
+    "client": [
+      "com.example.blockblend.client.BlockBlendClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": ">=0.102.0+1.21.1",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  },
+  "icon": "assets/blockblend/icon.png"
+}
+
+
